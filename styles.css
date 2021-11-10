@@ -5,7 +5,34 @@ body{
     background-color: #F0F0F0;
 }
 
+
+/*.logo-wrapper {*/
+/*    position: absolute;*/
+/*    width: 100%;*/
+/*}*/
+/*.top-bar {*/
+/*    margin-top: 20px;*/
+/*    position: absolute;*/
+/*}*/
+
+
 @media screen and (max-width: 576px) {
+    .jumbotron-fluid {
+        margin-top: 25px;
+        position: relative;
+        padding: 25px;
+        margin-bottom: 1em;
+    }
+
+    .logo {
+        width: 105px;
+        height: 105px;
+        top: 50px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+    }
+
     h1 {
         max-width: 315px;
         margin: auto;
@@ -16,6 +43,11 @@ body{
         max-width: 690px;
         margin: auto;
     }
+}
+.company-title {
+    font-family: 'Abel', sans-serif;
+    font-size: 3em;
+    margin-bottom: 0;
 }
 .header-title {
     font-family: 'Anton', sans-serif;
