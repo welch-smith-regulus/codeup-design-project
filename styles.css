@@ -5,33 +5,43 @@ body{
     background-color: #F0F0F0;
 }
 
+.blank-bar {
+    margin-top: 30px;
+    position: relative;
+    padding: 25px;
+    margin-bottom: 1em;
+}
 
-/*.logo-wrapper {*/
-/*    position: absolute;*/
-/*    width: 100%;*/
-/*}*/
-/*.top-bar {*/
-/*    margin-top: 20px;*/
-/*    position: absolute;*/
-/*}*/
+.logo {
+    width: 105px;
+    height: 105px;
+    top: 60px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
 
 /*xs screen*/
-@media screen and (max-width: 576px) {
-    .jumbotron-fluid {
-        margin-top: 25px;
-        position: relative;
-        padding: 25px;
-        margin-bottom: 1em;
+@media screen and (max-width: 575px) {
+    /*.jumbotron-fluid {*/
+    /*    margin-top: 25px;*/
+    /*    position: relative;*/
+    /*    padding: 25px;*/
+    /*    margin-bottom: 1em;*/
+    /*}*/
+
+    .blank-bar>ul {
+        display: none;
     }
 
-    .logo {
-        width: 105px;
-        height: 105px;
-        top: 50px;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        position: absolute;
-    }
+    /*.logo {*/
+    /*    width: 105px;*/
+    /*    height: 105px;*/
+    /*    top: 50px;*/
+    /*    left: 50%;*/
+    /*    transform: translate(-50%, -50%);*/
+    /*    position: absolute;*/
+    /*}*/
 
     h1 {
         max-width: 315px;
@@ -48,6 +58,18 @@ body{
         text-align: center;
         margin-top: 80px;
     }
+
+    .macbook-img {
+        display: none;
+    }
+
+    .man-img {
+        display: none;
+    }
+
+    .security-img {
+        display: none;
+    }
 }
 
 /*small screen*/
@@ -57,9 +79,38 @@ body{
         margin: auto;
     }
 
-    .featureproject{
-        min-width: 330px;
+    .blank-bar {
+        padding: 5px;
     }
+
+    .logo {
+        width: 105px;
+        height: 105px;
+        top: 60px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+    }
+
+    /*.featureproject {*/
+    /*    min-width: 350px;*/
+    /*}*/
+
+    /*.ipad-img {*/
+    /*    min-width: 350px;*/
+    /*}*/
+
+    /*.macbook-img {*/
+    /*    min-width: 350px;*/
+    /*}*/
+
+    /*.man-img {*/
+    /*    min-width: 350px;*/
+    /*}*/
+
+    /*.security-img {*/
+    /*    min-width: 350px;*/
+    /*}*/
 }
 .company-title {
     font-family: 'Abel', sans-serif;
@@ -123,7 +174,7 @@ body{
     line-height: 0;
     position: relative;
     float: right;
-    margin-left: 8px;
+    margin-left: 4px;
 }
 
 .support{
@@ -147,7 +198,7 @@ body{
     line-height: 0;
     position: relative;
     float: right;
-    margin-left: 8px;
+    margin-left: 4px;
 }
 
 .host{
@@ -171,7 +222,7 @@ body{
     line-height: 0;
     position: relative;
     float: right;
-    margin-left: 8px;
+    margin-left: 4px;
 }
 
 .txt{
@@ -272,5 +323,8 @@ body{
     font-family: 'Abel', sans-serif;
     font-size: 20px;
     text-align: center;
+}
+
+.featureproject {
 }
 
