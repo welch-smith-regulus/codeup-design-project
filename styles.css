@@ -15,7 +15,7 @@ body{
 /*    position: absolute;*/
 /*}*/
 
-
+/*xs screen*/
 @media screen and (max-width: 576px) {
     .jumbotron-fluid {
         margin-top: 25px;
@@ -37,11 +37,28 @@ body{
         max-width: 315px;
         margin: auto;
     }
+
+    .circles>.row{
+        justify-content: space-around;
+    }
+
+    .selectedworktitle{
+        font-family: 'Abel', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 80px;
+    }
 }
+
+/*small screen*/
 @media screen and (min-width: 576px) {
     h1 {
         max-width: 690px;
         margin: auto;
+    }
+
+    .featureproject{
+        min-width: 330px;
     }
 }
 .company-title {
@@ -72,6 +89,19 @@ body{
 
 }
 
+.designsmall{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #E6563B;
+    border: #E6563B;
+
+    line-height: 0;
+    position: relative;
+    float: right;
+
+}
+
 .develop{
     width: 105px;
     height: 105px;
@@ -81,6 +111,19 @@ body{
 
     line-height: 0;
     position: relative;
+}
+
+.developsmall{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #EB9D3A;
+    border: #EB9D3A;
+
+    line-height: 0;
+    position: relative;
+    float: right;
+    margin-left: 8px;
 }
 
 .support{
@@ -94,6 +137,19 @@ body{
     position: relative;
 }
 
+.supportsmall{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #7CB06C;
+    border: #7CB06C;
+
+    line-height: 0;
+    position: relative;
+    float: right;
+    margin-left: 8px;
+}
+
 .host{
     width: 105px;
     height: 105px;
@@ -103,6 +159,19 @@ body{
 
     line-height: 0;
     position: relative;
+}
+
+.hostsmall{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #00ABA9;
+    border: #00ABA9;
+
+    line-height: 0;
+    position: relative;
+    float: right;
+    margin-left: 8px;
 }
 
 .txt{
@@ -116,6 +185,17 @@ body{
     color: white;
 }
 
+.txtsmall{
+    position: absolute;
+    bottom: 50%;
+    width: 100%;
+    text-align: center;
+
+    font-size: 10px;
+    font-family: 'Anton', sans-serif;
+    color: black;
+}
+
 .supporttxt{
     position: absolute;
     bottom: 50%;
@@ -125,6 +205,17 @@ body{
     font-size: 20px;
     font-family: 'Anton', sans-serif;
     color: white;
+}
+
+.supporttxtsmall{
+    position: absolute;
+    bottom: 50%;
+    width: 100%;
+    text-align: center;
+
+    font-size: 10px;
+    font-family: 'Anton', sans-serif;
+    color: black;
 }
 
 .developtxt{
@@ -137,6 +228,18 @@ body{
     font-family: 'Anton', sans-serif;
     color: white;
 }
+
+.developtxtsmall{
+    position: absolute;
+    bottom: 50%;
+    width: 100%;
+    text-align: center;
+
+    font-size: 10px;
+    font-family: 'Anton', sans-serif;
+    color: black;
+}
+
 .hosttxt{
     position: absolute;
     bottom: 50%;
@@ -148,11 +251,26 @@ body{
     color: white;
 }
 
+.hosttxtsmall{
+    position: absolute;
+    bottom: 50%;
+    width: 100%;
+    text-align: center;
+
+    font-size: 10px;
+    font-family: 'Anton', sans-serif;
+    color: black;
+}
+
 .card{
     border: 8px solid #E6E6E6;
+    margin-bottom: 8px;
+    margin-top: 32px;
 }
 
 .selectedworktitle{
     font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    text-align: center;
 }
 
