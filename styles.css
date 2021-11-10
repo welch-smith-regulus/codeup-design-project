@@ -148,5 +148,11 @@ body{
     color: white;
 }
 
-.con
+.card{
+    border: 8px solid #E6E6E6;
+}
+
+.selectedworktitle{
+    font-family: 'Abel', sans-serif;
+}
 
