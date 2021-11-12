@@ -65,25 +65,27 @@ body{
         display: none;
     }
 
-    .selectedworktitle{
+    .selectedworktitle {
         font-family: 'Abel', sans-serif;
         font-size: 20px;
         text-align: center;
     }
+
     /*added-from-chat*/
-    .container-sm{
+    .container-sm {
         max-width: 200px;
         padding: 0;
     }
-    .circle-pad{
+
+    .circle-pad {
         padding-right: 1px;
     }
 
-    .work-nav{
+    .work-nav {
         margin-right: 48px;
     }
 
-    .blog-nav{
+    .blog-nav {
         margin-left: 48px;
     }
 }
@@ -108,31 +110,31 @@ body{
         position: absolute;
     }
 
-    .selectedworktitle{
+    .selectedworktitle {
         font-family: 'Abel', sans-serif;
         font-size: 16px;
         text-align: center;
     }
 
-    .container-sm{
+    .container-sm {
         max-width: 450px;
     }
 
-    .circle-pad{
+    .circle-pad {
         padding: 0;
     }
-    .work-nav{
+    .work-nav {
         margin-right: 48px;
     }
 
-    .blog-nav{
+    .blog-nav {
         margin-left: 48px;
     }
 }
 
 /*medium screen*/
 @media screen and (min-width: 768px) {
-    .selectedworktitle{
+    .selectedworktitle {
         text-align: left;
         font-size: 16px;
         max-width: 460px;
@@ -147,7 +149,7 @@ body{
         left: 12%;
     }
 
-    .company-title{
+    .company-title {
         position: absolute;
         top: 26px;
         left: 25%;
@@ -158,7 +160,7 @@ body{
         max-width: 450px;
     }
 
-    .circle-pad{
+    .circle-pad {
         padding: 0;
     }
 
@@ -166,11 +168,11 @@ body{
         padding: 5px;
     }
 
-    .spacer{
+    .spacer {
         display: none;
     }
 
-    .contacts-nav{
+    .contacts-nav {
         margin-right: 64px;
     }
 }
@@ -189,7 +191,7 @@ body{
         left: 19%;
     }
 
-    .company-title{
+    .company-title {
         position: absolute;
         top: 26px;
         left: 25%;
@@ -203,142 +205,131 @@ body{
     margin-bottom: 24px;
 }
 
-.location{
+.location {
     font-family: 'Anton', sans-serif;
     margin-bottom: 24px;
 }
 
-.design{
+.design {
     width: 105px;
     height: 105px;
     border-radius: 50%;
     background-color: #E6563B;
     border: 8px solid white;
-
     line-height: 0;
     position: relative;
 
 }
 
-.designsmall{
+.designsmall {
     width: 18px;
     height: 18px;
     border-radius: 50%;
     background-color: #E6563B;
     border: #E6563B;
-
     line-height: 0;
     position: relative;
     float: right;
 
 }
 
-.develop{
+.develop {
     width: 105px;
     height: 105px;
     border-radius: 50%;
     background-color: #EB9D3A;
     border: 8px solid white;
-
     line-height: 0;
     position: relative;
 }
 
-.developsmall{
+.developsmall {
     width: 18px;
     height: 18px;
     border-radius: 50%;
     background-color: #EB9D3A;
     border: #EB9D3A;
-
     line-height: 0;
     position: relative;
     float: right;
     margin-left: 4px;
 }
 
-.support{
+.support {
     width: 105px;
     height: 105px;
     border-radius: 50%;
     background-color: #7CB06C;
     border: 8px solid white;
-
     line-height: 0;
     position: relative;
 }
 
-.supportsmall{
+.supportsmall {
     width: 18px;
     height: 18px;
     border-radius: 50%;
     background-color: #7CB06C;
     border: #7CB06C;
-
     line-height: 0;
     position: relative;
     float: right;
     margin-left: 4px;
 }
 
-.host{
+.host {
     width: 105px;
     height: 105px;
     border-radius: 50%;
     background-color: #00ABA9;
     border: 8px solid white;
-
     line-height: 0;
     position: relative;
 }
 
-.hostsmall{
+.hostsmall {
     width: 18px;
     height: 18px;
     border-radius: 50%;
     background-color: #00ABA9;
     border: #00ABA9;
-
     line-height: 0;
     position: relative;
     float: right;
     margin-left: 4px;
 }
 
-.txt{
+.txt {
     position: absolute;
     bottom: 50%;
     width: 100%;
     text-align: center;
-
     font-size: 20px;
     font-family: 'Anton', sans-serif;
     color: white;
 }
 
-.txtsmall{
+.txtsmall {
     position: absolute;
     bottom: 50%;
     width: 100%;
     text-align: center;
-
     font-size: 10px;
     font-family: 'Anton', sans-serif;
     color: black;
 }
 
-.supporttxt{
+.supporttxt {
     position: absolute;
     bottom: 50%;
     width: 100%;
     text-align: center;
-
     font-size: 20px;
     font-family: 'Anton', sans-serif;
     color: white;
 }
 
-.supporttxtsmall{
+.supporttxtsmall {
     position: absolute;
     bottom: 50%;
     width: 100%;
@@ -354,54 +345,45 @@ body{
     bottom: 50%;
     width: 100%;
     text-align: center;
-
     font-size: 20px;
     font-family: 'Anton', sans-serif;
     color: white;
 }
 
-.developtxtsmall{
+.developtxtsmall {
     position: absolute;
     bottom: 50%;
     width: 100%;
     text-align: center;
-
     font-size: 10px;
     font-family: 'Anton', sans-serif;
     color: black;
 }
 
-.hosttxt{
+.hosttxt {
     position: absolute;
     bottom: 50%;
     width: 100%;
     text-align: center;
-
     font-size: 20px;
     font-family: 'Anton', sans-serif;
     color: white;
 }
 
-.hosttxtsmall{
+.hosttxtsmall {
     position: absolute;
     bottom: 50%;
     width: 100%;
     text-align: center;
-
     font-size: 10px;
     font-family: 'Anton', sans-serif;
     color: black;
 }
 
-.card{
+.card {
     border: 8px solid #E6E6E6;
     margin-bottom: 8px;
     margin-top: 32px;
-}
-
-
-
-.featureproject {
 }
 
 h3 {
@@ -413,25 +395,25 @@ h3 {
     margin-top: 24px;
 }
 
-.small-img-border{
+.small-img-border {
     border: 2px solid #E6E6E6
 }
 
-.the-last-text{
+.the-last-text {
     margin-left: 8px;
 }
 
-.last-tweet-header{
+.last-tweet-header {
     margin-top: 32px;
     font-family: 'Abel', sans-serif
 }
 
-.last-tweet{
+.last-tweet {
     margin-top: 24px;
     font-size: 12px;
     font-family: 'Abel', sans-serif
 }
 
-.the-last-header{
+.the-last-header {
     font-family: 'Abel', sans-serif
 }
