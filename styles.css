@@ -235,6 +235,14 @@ body{
     .featureproject {
         font-size: 15px;
     }
+
+    .container-sm{
+        max-width: 550px;
+    }
+
+    .circle-pad {
+        padding: 0;
+    }
 }
 
 .location {
@@ -428,7 +436,8 @@ h3 {
 }
 
 .small-img-border {
-    border: 2px solid #E6E6E6
+    border: 2px solid #E6E6E6;
+    margin-right: 1em;
 }
 
 .the-last-text {
@@ -437,12 +446,13 @@ h3 {
 
 .last-tweet-header {
     margin-top: 32px;
-    font-family: 'Abel', sans-serif
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
 }
 
 .last-tweet {
-    margin-top: 24px;
-    font-size: 12px;
+    margin-top: 1em;
+    font-size: 16px;
     font-family: 'Abel', sans-serif
 }
 
